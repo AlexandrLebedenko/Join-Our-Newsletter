@@ -2,7 +2,60 @@
 .wrapper {
   min-height: 100vh;
   min-width: 100%;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
-  background-color: #fafaf9;
+  text-align: center;
+  padding-top: 5rem;
+  background-color: #f9fafb;
+  color: #6c727f;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000000;
+  margin: 1rem 0;
+}
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: auto;
+  margin-bottom: 3.75rem;
+  max-width: 43.75rem;
+}
+.join-form {
+  max-width: 34.5rem;
+  padding: 1.5rem;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0rem 1.25rem 1.875rem 0rem rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.form-input {
+  display: block;
+  min-width: 100%;
+  padding: 1.25rem;
+  background-color: #f9fafb;
+  color: #394150;
+  border: 0.0625rem solid #e5e7eb;
+  border-radius: 1rem;
+}
+.form-input::placeholder {
+  text-align: center;
+  color: #394150;
+  font-weight: 500;
+}
+.form-button {
+  display: block;
+  min-width: 100%;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: #284bce;
+  padding: 1.25rem 0;
+  margin: 1.5rem 0;
+  border-radius: 1rem;
+}
+.helper-text {
+  font-size: 0.875rem;
+  font-weight: 400;
   color: #394150;
 }
